@@ -1,2 +1,1 @@
 # stevequindo.github.io
-.nojekyll
