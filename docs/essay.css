@@ -1,0 +1,44 @@
+/* 1. THE FONT: Paul Graham uses Palatino / Georgia / Serif fonts */
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    padding: 40px 20px;
+    /* 2. THE COLUMN: Narrow width for readability */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+p {
+    margin-bottom: 1.2em;
+    text-align: left;
+}
+
+/* 3. THE LINKS: Classic blue/purple style */
+a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+/* 4. THE REFERENCES: Smaller font at the bottom */
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
+.notes {
+    font-size: 0.9em;
+    margin-top: 20px;
+}
